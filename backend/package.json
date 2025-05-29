@@ -1,0 +1,22 @@
+{
+  "name": "task-backend",
+  "version": "1.0.0",
+  "description": "Backend para gerenciamento de tarefas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3",
+    "pg": "^8.11.1",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "author": "",
+  "license": "ISC"
+}
